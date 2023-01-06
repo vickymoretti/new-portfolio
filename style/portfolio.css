@@ -1,7 +1,7 @@
 :root {
 	--background-color: #faf6f3;
 	--header-color: #efddda;
-	--primary-color: #347474;
+	--primary-color: #a54e85;
 	--font-family: "Poppins", sans-serif;
 }
 body {
@@ -47,7 +47,7 @@ h1 {
 
 .index-button:hover {
 	color: white;
-	box-shadow: inset 0 -100px 0 0 #725ac1;
+	box-shadow: inset 0 -100px 0 0 var(--primary-color);
 }
 
 .index-button:active {
@@ -89,17 +89,16 @@ h1 {
 .project-button {
 	position: relative;
 	text-align: center;
-	float: inline-start;
 	padding: 7px 12px;
-	margin: 0px 10px 10px 0px;
+	margin: 30px 200px;
 	border-radius: 5px;
 	font-size: 16px;
 	color: #fff;
 	text-decoration: none;
-	background-color: #2ecc71;
+	background-color: var(--primary-color);
 	border: none;
-	border-bottom: 5px solid #27ae60;
-	text-shadow: 0px -2px #27ae60;
+	border-bottom: 5px solid #551f5f;
+	text-shadow: 0px -2px #551f5f;
 	-webkit-transition: all 0.1s;
 	transition: all 0.1s;
 }
@@ -109,5 +108,5 @@ h1 {
 	-webkit-transform: translate(0px, 5px);
 	-ms-transform: translate(0px, 5px);
 	transform: translate(0px, 5px);
-	border-bottom: 1px solid #2ecc71;
+	border-bottom: 1px solid #551f5f;
 }
