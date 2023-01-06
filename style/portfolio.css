@@ -1,7 +1,8 @@
 :root {
 	--background-color: #faf6f3;
-	--container-color: #e4d4c7;
-	--primary-color: #725ac1;
+	--header-color: #efddda;
+	--primary-color: #347474;
+	--font-family: "Poppins", sans-serif;
 }
 body {
 	background-color: var(--background-color);
@@ -14,14 +15,14 @@ h1 {
 	font-weight: bold;
 }
 
-h2 {
-	font-family: "Poppins", sans-serif;
+.description-header {
+	font-family: var(--font-family);
 	font-size: 23px;
 	line-height: 2;
 }
 
-h3 {
-	font-family: "Poppins", sans-serif;
+.presentation {
+	font-family: var(--font-family);
 	font-size: 36px;
 	font-weight: bold;
 }
@@ -32,7 +33,7 @@ h3 {
 	margin: 65px;
 	padding: 9px 9px;
 	font-size: 18px;
-	font-family: "Poppins", sans-serif;
+	font-family: var(--font-family);
 	letter-spacing: 1px;
 	text-decoration: none;
 	color: var(--primary-color);
@@ -53,17 +54,34 @@ h3 {
 	transform: scale(0.9);
 }
 
-.container {
-	background-color: var(--container-color);
+.header {
+	background-color: var(--header-color);
 	border-radius: 5px;
-	padding: 60px 0;
+	padding: 50px 0;
 }
 
-.victoria-img {
+.victoria-img,
+.weather-img {
 	display: flex;
 	justify-items: center;
 	max-width: 60%;
 	border-radius: 5%;
 	margin: 0 auto;
 	box-shadow: 3px 3px 8px rgb(0 0 0 / 30%);
+}
+
+.best-projects {
+	text-align: center;
+	margin: 90px 0;
+	font-family: "Playfair Display SC", serif;
+	font-weight: bold;
+}
+
+.project-title {
+	text-align: center;
+}
+
+.project-description {
+	font-size: 20px;
+	text-align: center;
 }
