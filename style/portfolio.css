@@ -61,7 +61,7 @@ h1 {
 }
 
 .victoria-img,
-.weather-img {
+.images-portfolio {
 	display: flex;
 	justify-items: center;
 	max-width: 60%;
@@ -84,4 +84,30 @@ h1 {
 .project-description {
 	font-size: 20px;
 	text-align: center;
+}
+
+.project-button {
+	position: relative;
+	text-align: center;
+	float: inline-start;
+	padding: 7px 12px;
+	margin: 0px 10px 10px 0px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #2ecc71;
+	border: none;
+	border-bottom: 5px solid #27ae60;
+	text-shadow: 0px -2px #27ae60;
+	-webkit-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+.project-button:hover,
+.project-button:active {
+	-webkit-transform: translate(0px, 5px);
+	-ms-transform: translate(0px, 5px);
+	transform: translate(0px, 5px);
+	border-bottom: 1px solid #2ecc71;
 }
