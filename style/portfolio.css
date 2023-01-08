@@ -229,7 +229,8 @@ h1 {
 	.project-button {
 		margin: 12px auto;
 		padding: 10px 10px;
-		font-size: 16px;
+		font-size: 13px;
+		text-shadow: none;
 	}
 	.project-title {
 		font-size: 22px;
