@@ -212,7 +212,7 @@ h1 {
 	}
 	.index-button {
 		padding: 10px;
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.victoria-img,
 	.images-portfolio {
@@ -226,7 +226,7 @@ h1 {
 	.project-button {
 		margin: 12px 12px;
 		padding: 10px 10px;
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.project-title {
 		font-size: 22px;
@@ -234,11 +234,11 @@ h1 {
 		margin-top: 20px;
 	}
 	.project-description {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.best-projects {
 		margin: 50px;
-		font-size: 14px;
+		font-size: 18px;
 	}
 
 	.footer-work-inquiry {
@@ -247,8 +247,8 @@ h1 {
 	}
 
 	.footer-paragraph {
-		margin: 30px 0;
-		font-size: 14px;
+		margin: 30px 10px;
+		font-size: 16px;
 	}
 	.inquiry-button {
 		padding: 10px 10px;
@@ -256,5 +256,10 @@ h1 {
 	}
 	.col-sm-6 {
 		flex: 0 0 auto;
+	}
+	.about-paragraph {
+		text-align: center;
+		font-size: 16px;
+		margin: 24px 50px;
 	}
 }
