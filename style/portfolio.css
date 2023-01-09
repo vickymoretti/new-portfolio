@@ -169,14 +169,14 @@ h1 {
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
-	margin: 60px 0;
+	margin: 40px 0;
 	color: #212529;
 	padding: 14px 8px;
 }
 
 .email:hover {
 	background-color: var(--primary-color);
-	margin: 60px 375px;
+	margin: 40px 375px;
 	padding: 14px 8px;
 	border-radius: 5px;
 	color: white;
@@ -191,6 +191,9 @@ h1 {
 	color: white;
 	transition: all 100ms ease-in-out;
 }
+.nav-item:active a {
+	color: red;
+}
 
 .about-paragraph {
 	line-height: 30px;
@@ -203,6 +206,17 @@ h1 {
 .get-in-touch {
 	text-align: center;
 	margin-bottom: 80px;
+}
+
+.social-media-alignment {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.fa-brands {
+	color: #212529;
+	padding: 20px;
+	font-size: 25px;
 }
 
 @media (max-width: 600px) {
@@ -232,7 +246,7 @@ h1 {
 	.email {
 		text-align: center;
 		font-size: 20px;
-		margin: 30px;
+		margin: 40px;
 		background-color: var(--primary-color);
 		border-radius: 4px;
 	}
