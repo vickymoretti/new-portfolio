@@ -195,6 +195,11 @@ h1 {
 	text-align: center;
 }
 
+.get-in-touch {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
 @media (max-width: 600px) {
 	h1 {
 		font-size: 35px;
