@@ -133,7 +133,8 @@ h1 {
 }
 .footer-paragraph {
 	font-family: var(--text-family);
-	font-size: 22px;
+	font-size: 16px;
+	margin: 0 22px;
 }
 
 .inquiry-button {
@@ -213,10 +214,21 @@ h1 {
 	justify-content: center;
 	margin: 0 auto;
 }
+
 .fa-brands {
-	color: #212529;
-	padding: 20px;
+	color: var(--primary-color);
+	padding: 15px;
+	margin: 5px;
 	font-size: 25px;
+	background-color: var(--header-color);
+	border-radius: 50px;
+}
+
+.fa-brands:hover {
+	background-color: var(--primary-color);
+	color: var(--header-color);
+	border-radius: 4px;
+	transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 600px) {
