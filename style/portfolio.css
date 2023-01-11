@@ -79,6 +79,7 @@ h1 {
 	font-family: var(--title-font);
 	font-weight: bold;
 	font-size: 30px;
+	padding: 20px;
 }
 
 .project-title {
@@ -231,6 +232,13 @@ h1 {
 	transition: all 100ms ease-in-out;
 }
 
+.open-source {
+	text-align: center;
+	margin-top: 35px;
+	font-family: var(--text-font);
+	font-size: 14px;
+}
+
 @media (max-width: 600px) {
 	h1 {
 		font-size: 35px;
@@ -298,5 +306,9 @@ h1 {
 		text-align: center;
 		font-size: 16px;
 		margin: 24px 50px;
+	}
+
+	.open-source {
+		font-size: 14px;
 	}
 }
